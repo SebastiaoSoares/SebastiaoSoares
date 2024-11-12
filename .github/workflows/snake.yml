@@ -23,8 +23,8 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3  # Atualizado para v3
+      - name: Generate Snake Game
+        uses: Platane/snk@v3
         with:
-          name: github-snake
-          path: dist/github-snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/github-snake.svg
