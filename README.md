@@ -1,16 +1,22 @@
-## Hi there 👋
+# Sebastião Soares
 
-<!--
-**SebastiaoSoares/SebastiaoSoares** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div style="display: flex;">
+  <img src="https://img.shields.io/badge/JavaScript-4f400c?style=for-the-badge&logo=javascript" alt="JS">
+  <img src="https://img.shields.io/badge/Python-0a2138?style=for-the-badge&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Git-592a13?style=for-the-badge&logo=git" alt="Git">
+  <img src="https://img.shields.io/badge/PHP-25164f?style=for-the-badge&logo=php" alt="PHP">
+  <img src="https://img.shields.io/badge/Laravel-4d1818?style=for-the-badge&logo=laravel" alt="Laravel">
+  <img src="https://img.shields.io/badge/C-273b47?style=for-the-badge&logo=c" alt="C">
+  <img src="https://img.shields.io/badge/Arduino-474747?style=for-the-badge&logo=arduino" alt="Arduino">
+</div>
 
-Here are some ideas to get you started:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+  <img alt="github-snake" src="dist/github-snake.svg" />
+</picture>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br>
+
+![Github Stats](https://github-readme-stats.vercel.app/api?username=sebastiaosoares&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=2B5BBD&icon_color=1124BB&text_color=A1A1A1&bg_color=0,000000,130F40)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=sebastiaosoares&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark)
