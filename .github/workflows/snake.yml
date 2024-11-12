@@ -4,7 +4,7 @@ on:
   # Executa a ação sempre que há um novo push no repositório
   push:
     branches:
-      - master  # ou main, dependendo do seu branch padrão
+      - main
   # Executa a ação todos os dias, à meia-noite
   schedule:
     - cron: "0 0 * * *"
