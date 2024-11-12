@@ -1,32 +1,30 @@
 name: Generate Snake Game from Contributions
 
 on:
-  # Executa a ação sempre que há um novo push no repositório
   push:
     branches:
-      - main
-  # Executa a ação todos os dias, à meia-noite
+      - main  # ou 'master', dependendo do seu branch principal
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # Executa todos os dias à meia-noite
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Puxa o repositório para a máquina virtual
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 
-      # Executa a ação de gerar o gráfico da cobrinha
-      - uses: Platane/snk@v3
+      - name: Generate Snake Game
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # Faz o upload da imagem gerada para o repositório
-      - uses: actions/upload-artifact@v2
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3  # Atualizado para v3
         with:
-          name: snake-game
-          path: dist
+          name: github-snake
+          path: dist/github-snake.svg
