@@ -1,13 +1,15 @@
 # Sebastião Soares
+🚀 Estudante de Engenharia de Software, Técnico em Informática e Desenvolvedor Web Full-Stack.
 
 <div style="display: flex;">
   <img src="https://img.shields.io/badge/JavaScript-4f400c?style=for-the-badge&logo=javascript" alt="JS">
   <img src="https://img.shields.io/badge/Python-0a2138?style=for-the-badge&logo=python" alt="Python">
   <img src="https://img.shields.io/badge/Git-592a13?style=for-the-badge&logo=git" alt="Git">
   <img src="https://img.shields.io/badge/PHP-25164f?style=for-the-badge&logo=php" alt="PHP">
-  <img src="https://img.shields.io/badge/Laravel-4d1818?style=for-the-badge&logo=laravel" alt="Laravel">
+  <img src="https://img.shields.io/badge/React-0c2348?style=for-the-badge&logo=react" alt="React">
+  <img src="https://img.shields.io/badge/Node.Js-0c3028?style=for-the-badge&logo=nodedotjs" alt="Node JS">
   <img src="https://img.shields.io/badge/C-273b47?style=for-the-badge&logo=c" alt="C">
-  <img src="https://img.shields.io/badge/Arduino-474747?style=for-the-badge&logo=arduino" alt="Arduino">
+  <img src="https://img.shields.io/badge/Arduino-373737?style=for-the-badge&logo=arduino" alt="Arduino">
 </div>
 <br>
 
